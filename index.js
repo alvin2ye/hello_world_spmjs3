@@ -1,3 +1,5 @@
-var helloWorldSpmjs3;
+var moment = require('moment');
+var now = moment().format('MMMM Do YYYY, h:mm:ss a');
 
-module.exports = helloWorldSpmjs3;
+module.exports = now + " hello world";
+
