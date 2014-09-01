@@ -1,6 +1,3 @@
-var moment = require('moment');
+var $ = require('jquery');
 
-var now = moment().format('MMMM Do YYYY, h:mm:ss a');
-
-module.exports = now + " hello world";
-
+module.exports = moment + " hello world";
