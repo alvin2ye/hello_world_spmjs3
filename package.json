@@ -1,0 +1,24 @@
+{
+  "name": "hello-world-spmjs3",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [],
+  "homepage": "",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alvin2ye/hello_world_spmjs3.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": "MIT",
+  "spm": {
+    "main": "index.js",
+    "dependencies": {
+    },
+    "devDependencies": {
+      "expect.js": "0.3.1"
+    }
+  }
+}
