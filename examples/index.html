@@ -8,18 +8,11 @@
 <body>
   <script src="../sea-modules/seajs/2.3.0/dist/sea.js"></script>
   <script>
-    console.info(1, define, seajs, seajs.use);
-    define("abc", [], "aaaa");
-    seajs.use("abc", function(a) {
-       console.info(a);
-    });
     seajs.config({
         base: "../dist"
     });
 
     seajs.use("hello-world-spmjs3/0.0.1/index-debug.js")
-
-    
   </script>
 </body>
 </html>
